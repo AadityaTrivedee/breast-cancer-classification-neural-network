@@ -65,7 +65,7 @@ def hypo(x):
     hypos = {"A2":A2,"Z2":Z2,"A1":A1}
     return hypos
 
-def algo(alpha,):
+def algo(alpha):
     global w1,b1,w2,b2,J
     hypos = hypo(X_train)
     h,A1 = hypos["A2"],hypos["A1"]
